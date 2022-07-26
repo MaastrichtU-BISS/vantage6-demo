@@ -20,3 +20,7 @@ vserver import -c $server_config $server_entities
 # Fysio node start
 $fysio_config = $(Convert-Path -path $(Resolve-Path fysio.yaml))
 vnode start -c $fysio_config
+
+# Ortho node start
+$ortho_config = $(Convert-Path -path $(Resolve-Path ortho.yaml))
+vnode start -c $ortho_config
