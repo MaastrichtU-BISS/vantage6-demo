@@ -1,0 +1,24 @@
+application:
+  api_key: 844a7d92-1cc9-4856-bf33-0613252d5b3c
+  api_path: /api
+  databases:
+    default: 'fysio.csv'
+  encryption:
+    enabled: false
+    private_key: ''
+  logging:
+    backup_count: 5
+    datefmt: '%Y-%m-%d %H:%M:%S'
+    file: fysio.log
+    format: '%(asctime)s - %(name)-14s - %(levelname)-8s - %(message)s'
+    level: DEBUG
+    max_size: 1024
+    use_console: true
+  port: '5000'
+  server_url: http://172.17.0.1
+  task_dir: C:\Users\johan\AppData\Local\vantage6\node\fysio
+environments:
+  acc: {}
+  dev: {}
+  prod: {}
+  test: {}

@@ -1,0 +1,36 @@
+collaborations:
+- encrypted: false
+  name: v6-demo
+  participants:
+  - api-key: 844a7d92-1cc9-4856-bf33-0613252d5b3c
+    name: Fysio
+  - api-key: 57143784-19ef-456b-94c9-ba68c8cb079b
+    name: Ortho
+nodes: []
+organizations:
+- address1: fysiostreet 42
+  address2: ''
+  country: Netherlands
+  domain: fysio.nl
+  name: Fysio
+  public_key: ''
+  users:
+  - email: user@fysio.nl
+    firstname: Firstname
+    lastname: Lastname
+    password: fysio-password
+    username: fysio-user
+  zipcode: 1234AB
+- address1: orthostreet 42
+  address2: ''
+  country: Netherlands
+  domain: ortho.nl
+  name: Ortho
+  public_key: ''
+  users:
+  - email: user@ortho.nl
+    firstname: Firstname
+    lastname: Lastname
+    password: ortho-password
+    username: ortho-user
+  zipcode: 1234AB
