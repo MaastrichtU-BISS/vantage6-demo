@@ -11,7 +11,7 @@ Proof of principle repository for the Beweeghuis project
 5. Run the setup shell-script `.\setup.ps1`
 
 ### Linux (Ubuntu)
-1. Install Docker Engine: `sh | curl -fsSL https://get.docker.com -o get-docker.sh`
+1. Install Docker Engine: `curl -fsSL https://get.docker.com | sh`
 2. Install Python: `sudo apt install python3 python-as-python3 python3-pip`
 3. Go to [infrastructure](infrastructure) in command line: `cd <your download location>/infrastructure`
 4. Run the setup shell-script `sh setup.sh`
