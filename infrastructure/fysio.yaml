@@ -5,7 +5,7 @@ application:
     default: 'fysio.csv'
   encryption:
     enabled: false
-    private_key: ''
+    private_key: 'fysio.pki'
   logging:
     backup_count: 5
     datefmt: '%Y-%m-%d %H:%M:%S'
