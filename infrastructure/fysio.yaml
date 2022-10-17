@@ -10,7 +10,7 @@ application:
     backup_count: 5
     datefmt: '%Y-%m-%d %H:%M:%S'
     file: fysio.log
-    format: '%(asctime)s - %(name)-14s - %(levelname)-8s - %(message)s'
+    format: '%(asctime)s - %(pathname)s:%(lineno)d - %(levelname)-8s - %(message)s'
     level: DEBUG
     max_size: 1024
     use_console: true
