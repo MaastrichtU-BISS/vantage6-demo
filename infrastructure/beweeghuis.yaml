@@ -7,6 +7,7 @@ environments:
     api_path: /api
     description: Beweeghuis PHT Proof of Principle
     ip: 0.0.0.0
+    jwt_secret_key: 95161ee4-dcfd-11ed-b875-2f6e36e39b10
     logging:
       backup_count: 5
       datefmt: '%Y-%m-%d %H:%M:%S'

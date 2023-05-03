@@ -2,10 +2,10 @@ application:
   api_key: 57143784-19ef-456b-94c9-ba68c8cb079b
   api_path: /api
   databases:
-    default: 'ortho.csv'
+    default: /Users/johan/Repositories/projects/zin2.0/beweeghuis-pht/infrastructure/ortho.csv
   encryption:
     enabled: false
-    private_key: 'ortho.pki'
+    private_key: ''
   logging:
     backup_count: 5
     datefmt: '%Y-%m-%d %H:%M:%S'
@@ -15,7 +15,7 @@ application:
     max_size: 1024
     use_console: true
   port: '5000'
-  server_url: http://172.17.0.1
+  server_url: http://host.docker.internal
   task_dir: ./ortho/tasks
 environments:
   acc: {}
