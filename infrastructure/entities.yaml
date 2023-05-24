@@ -1,35 +1,36 @@
-organizations:
-  - name: Fysio
-    address1: fysiostreet 42
-    address2: 
-    country: Netherlands
-    domain: fysio.nl
-    public_key: ''
-    users:
-      - username: fysio
-        firstname: MyFysio
-        lastname: Fysioln
-        password: fysio-password 
-    zipcode: 1234AB
-
-  - name: Ortho
-    address1: orthostreet 42
-    address2: 
-    country: Netherlands
-    domain: ortho.nl
-    public_key: ''
-    users:
-      - username: ortho
-        firstname: MyOrtho
-        lastname: Ortholn
-        password: ortho-password
-    zipcode: 1234AB
-
 collaborations:
-  - encrypted: false
-    name: v6-demo
-    participants:
-      - api_key: 844a7d92-1cc9-4856-bf33-0613252d5b3c
-        name: Fysio
-      - api_key: 57143784-19ef-456b-94c9-ba68c8cb079b
-        name: Ortho
+- encrypted: false
+  name: v6-demo
+  participants:
+  - api_key: 844a7d92-1cc9-4856-bf33-0613252d5b3c
+    name: fysio
+  - api_key: 57143784-19ef-456b-94c9-ba68c8cb079b
+    name: ortho
+nodes: []
+organizations:
+- name: fysio
+  address1: fysiostreet 42
+  address2: 
+  country: Netherlands
+  domain: fysio.nl
+  public_key: ''
+  users:
+  - email: fysio@fysio.nl
+    username: fysio-user
+    firstname: MyFysio
+    lastname: Fysioln
+    password: fysio-password 
+  zipcode: 1234AB
+- name: ortho
+  address1: orthostreet 42
+  address2: 
+  country: Netherlands
+  domain: ortho.nl
+  public_key: ''
+  users:
+  - email: ortho@ortho.nl
+    username: ortho-user
+    firstname: MyOrtho
+    lastname: Ortholn
+    password: ortho-password
+  zipcode: 1234AB
