@@ -4,7 +4,8 @@ VERSION_NODE=4.4.1
 VERSION_SERVER=$VERSION_NODE
 
 python -m venv ./venv
-source ./venv/bin/activate
+# dot (.) is used instead of source in shell script
+. ./venv/bin/activate
 
 pip install -r requirements.txt
 

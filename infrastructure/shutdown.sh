@@ -1,12 +1,12 @@
-source ./venv/bin/activate
+. ./venv/bin/activate
 v6 node stop --user -n ortho
 v6 node stop --user -n fysio
 v6 server stop --user -n beweeghuis
 deactivate
 
-docker volume rm $(docker volume ls -f name=vantage6 -q)
-docker volume rm $(docker volume ls -f name=ortho -q)
-docker volume rm $(docker volume ls -f name=fysio -q)
+# docker volume rm $(docker volume ls -f name=vantage6 -q)
+# docker volume rm $(docker volume ls -f name=ortho -q)
+# docker volume rm $(docker volume ls -f name=fysio -q)
 
 # Optional: delete images
 # docker rmi -f $(docker image ls --filter=reference='harbor*/*/*' -q)
