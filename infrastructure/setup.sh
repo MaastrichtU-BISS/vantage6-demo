@@ -28,3 +28,15 @@ v6 node start --user -c $fysio_config --image harbor2.vantage6.ai/infrastructure
 # Ortho node start
 ortho_config=$(pwd)/ortho.yaml
 v6 node start --user -c $ortho_config --image harbor2.vantage6.ai/infrastructure/node:$VERSION_NODE
+
+# Run Vantage6 UI
+docker run --rm -d \
+    --name vantage6-ui \
+    -p 80:80 \
+    -e "SERVER_URL=http://localhost:5000" \
+    -e "API_PATH=/api" \
+    harbor2.vantage6.ai/infrastructure/ui
+
+# Attempt to open browser
+echo 'attempt to open http://localhost/'
+python -m webbrowser http://localhost/
