@@ -29,6 +29,10 @@ v6 node start --user -c $fysio_config --image harbor2.vantage6.ai/infrastructure
 ortho_config=$(pwd)/ortho.yaml
 v6 node start --user -c $ortho_config --image harbor2.vantage6.ai/infrastructure/node:$VERSION_NODE
 
+# Third node start
+third_config=$(pwd)/third.yaml
+v6 node start --user -c $third_config --image harbor2.vantage6.ai/infrastructure/node:$VERSION_NODE
+
 # Run Vantage6 UI
 docker run --rm -d \
     --name vantage6-ui \

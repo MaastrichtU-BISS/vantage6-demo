@@ -1,8 +1,11 @@
 . ./venv/bin/activate
 v6 node stop --user -n ortho
 v6 node stop --user -n fysio
+v6 node stop --user -n third
 v6 server stop --user -n beweeghuis
 deactivate
+
+docker stop vantage6-ui
 
 # docker volume rm $(docker volume ls -f name=vantage6 -q)
 # docker volume rm $(docker volume ls -f name=ortho -q)
@@ -19,4 +22,5 @@ deactivate
 # Linux
 rm -Rf ~/.local/share/vantage6/node/fysio
 rm -Rf ~/.local/share/vantage6/node/ortho
+rm -Rf ~/.local/share/vantage6/node/third
 rm -Rf ~/.local/share/vantage6/server/beweeghuis
