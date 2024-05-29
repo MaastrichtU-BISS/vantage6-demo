@@ -22,8 +22,8 @@ v6 server import --user -c $server_config $server_entities
 
 # Fysio node start
 fysio_config=$(pwd)/fysio.yaml
-vnode start --user -c $fysio_config --image harbor2.vantage6.ai/infrastructure/node:$VERSION_NODE
+v6 node start --user -c $fysio_config --image harbor2.vantage6.ai/infrastructure/node:$VERSION_NODE
 
 # Ortho node start
 ortho_config=$(pwd)/ortho.yaml
-vnode start --user -c $ortho_config --image harbor2.vantage6.ai/infrastructure/node:$VERSION_NODE
+v6 node start --user -c $ortho_config --image harbor2.vantage6.ai/infrastructure/node:$VERSION_NODE
