@@ -1,0 +1,2 @@
+vantage6-client==4.4.1
+matplotlib
