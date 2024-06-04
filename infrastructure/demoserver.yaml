@@ -5,13 +5,13 @@ algorithm_stores:
   url: https://ghcr.io
 allow_drop_all: 'True'
 api_path: /api
-description: Beweeghuis PHT Proof of Principle
+description: Demo server Vantage6
 ip: 0.0.0.0
 jwt_secret_key: 95161ee4-dcfd-11ed-b875-2f6e36e39b10
 logging:
   backup_count: 5
   datefmt: '%Y-%m-%d %H:%M:%S'
-  file: bla-config.log
+  file: demo-server.log
   format: '%(asctime)s - %(name)-14s - %(levelname)-8s - %(message)s'
   level: DEBUG
   loggers:

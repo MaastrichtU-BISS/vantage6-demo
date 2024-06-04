@@ -1,3 +1,6 @@
+echo "please use the bash shell script"
+exit
+
 Set-Variable -Name "VERSION_NODE" -Value "3.8.2"
 Set-Variable -Name "VERSION_SERVER" -Value $VERSION_NODE
 

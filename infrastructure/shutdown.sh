@@ -24,3 +24,4 @@ rm -Rf ~/.local/share/vantage6/node/fysio
 rm -Rf ~/.local/share/vantage6/node/ortho
 rm -Rf ~/.local/share/vantage6/node/third
 rm -Rf ~/.local/share/vantage6/server/beweeghuis
+rm -Rf ~/.cache/vantage6
