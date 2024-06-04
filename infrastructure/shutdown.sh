@@ -1,8 +1,8 @@
 . ./venv/bin/activate
-v6 node stop --user -n ortho
-v6 node stop --user -n fysio
-v6 node stop --user -n third
-v6 server stop --user -n beweeghuis
+v6 node stop --user -n gamma
+v6 node stop --user -n beta
+v6 node stop --user -n alpha
+v6 server stop --user -n demoserver
 deactivate
 
 docker stop vantage6-ui
@@ -20,8 +20,8 @@ docker stop vantage6-ui
 # rm -R ~/Library/Application\ Support/vantage6/server/beweeghuis
 
 # Linux
-rm -Rf ~/.local/share/vantage6/node/fysio
-rm -Rf ~/.local/share/vantage6/node/ortho
-rm -Rf ~/.local/share/vantage6/node/third
-rm -Rf ~/.local/share/vantage6/server/beweeghuis
+rm -Rf ~/.local/share/vantage6/node/alpha
+rm -Rf ~/.local/share/vantage6/node/beta
+rm -Rf ~/.local/share/vantage6/node/gamma
+rm -Rf ~/.local/share/vantage6/server/demoserver
 rm -Rf ~/.cache/vantage6
