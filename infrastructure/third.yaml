@@ -1,9 +1,9 @@
-api_key: 57143784-19ef-456b-94c9-ba68c8cb079b
+api_key: 57143784-19ef-456b-94c9-ba68c8cb079c
 api_path: /api
 databases:
 - label: default
   type: csv
-  uri: /home/johan/Repositories/PHT/beweeghuis-pht/infrastructure/ortho.csv
+  uri: /home/johan/Repositories/PHT/beweeghuis-pht/infrastructure/third.csv
 encryption:
   enabled: false
   private_key: ''
@@ -27,4 +27,4 @@ logging:
   use_console: true
 port: '5000'
 server_url: http://host.docker.internal
-task_dir: ./ortho/tasks
+task_dir: ./third/tasks

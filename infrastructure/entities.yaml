@@ -6,6 +6,8 @@ collaborations:
     name: fysio
   - api_key: 57143784-19ef-456b-94c9-ba68c8cb079b
     name: ortho
+  - api_key: 57143784-19ef-456b-94c9-ba68c8cb079c
+    name: third
 nodes: []
 organizations:
 - name: fysio
@@ -33,4 +35,17 @@ organizations:
     firstname: MyOrtho
     lastname: Ortholn
     password: ortho-password
+  zipcode: 1234AB
+- name: third
+  address1: third 42
+  address2: 
+  country: Netherlands
+  domain: third.nl
+  public_key: ''
+  users:
+  - email: third@ortho.nl
+    username: third-user
+    firstname: MyThird
+    lastname: thirdln
+    password: third-password
   zipcode: 1234AB
