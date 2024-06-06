@@ -1,5 +1,6 @@
-# Beweeghuis Personal Health Train
-Proof of principle repository for the Beweeghuis project
+# Vantage6 Demo
+Demonstration project for Vatnage6.
+**Mind this is not a production setting, credentials are hard-coded for demo purposes**
 
 ## How to run the infrastructure locally?
 
