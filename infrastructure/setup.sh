@@ -14,24 +14,24 @@ docker pull harbor2.vantage6.ai/infrastructure/server:$VERSION_SERVER
 docker pull harbor2.vantage6.ai/infrastructure/node:$VERSION_NODE
 
 # Start server
-server_config=$(pwd)/beweeghuis.yaml
+server_config=$(pwd)/demoserver.yaml
 v6 server start --user -c $server_config --image harbor2.vantage6.ai/infrastructure/server:$VERSION_SERVER
 
 # Import server entities
 server_entities=$(pwd)/entities.yaml
 v6 server import --user -c $server_config $server_entities
 
-# Fysio node start
-fysio_config=$(pwd)/fysio.yaml
-v6 node start --user -c $fysio_config --image harbor2.vantage6.ai/infrastructure/node:$VERSION_NODE
+# Alpha node start
+alpha_config=$(pwd)/alpha.yaml
+v6 node start --user -c $alpha_config --image harbor2.vantage6.ai/infrastructure/node:$VERSION_NODE
 
-# Ortho node start
-ortho_config=$(pwd)/ortho.yaml
-v6 node start --user -c $ortho_config --image harbor2.vantage6.ai/infrastructure/node:$VERSION_NODE
+# Beta node start
+beta_config=$(pwd)/beta.yaml
+v6 node start --user -c $beta_config --image harbor2.vantage6.ai/infrastructure/node:$VERSION_NODE
 
-# Third node start
-third_config=$(pwd)/third.yaml
-v6 node start --user -c $third_config --image harbor2.vantage6.ai/infrastructure/node:$VERSION_NODE
+# Gamma node start
+gamma_config=$(pwd)/gamma.yaml
+v6 node start --user -c $gamma_config --image harbor2.vantage6.ai/infrastructure/node:$VERSION_NODE
 
 # Run Vantage6 UI
 docker run --rm -d \

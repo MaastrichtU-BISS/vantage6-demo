@@ -3,49 +3,49 @@ collaborations:
   name: v6-demo
   participants:
   - api_key: 844a7d92-1cc9-4856-bf33-0613252d5b3c
-    name: fysio
+    name: alpha
   - api_key: 57143784-19ef-456b-94c9-ba68c8cb079b
-    name: ortho
+    name: beta
   - api_key: 57143784-19ef-456b-94c9-ba68c8cb079c
-    name: third
+    name: gamma
 nodes: []
 organizations:
-- name: fysio
-  address1: fysiostreet 42
+- name: alpha
+  address1: alphastreet 42
   address2: 
   country: Netherlands
-  domain: fysio.nl
+  domain: alpha.nl
   public_key: ''
   users:
-  - email: fysio@fysio.nl
-    username: fysio-user
-    firstname: MyFysio
-    lastname: Fysioln
-    password: fysio-password 
+  - email: alpha@alpha.nl
+    username: alpha-user
+    firstname: MyAlpha
+    lastname: AlphaLastName
+    password: alpha-password 
   zipcode: 1234AB
-- name: ortho
-  address1: orthostreet 42
+- name: beta
+  address1: betastreet 42
   address2: 
   country: Netherlands
-  domain: ortho.nl
+  domain: beta.nl
   public_key: ''
   users:
-  - email: ortho@ortho.nl
-    username: ortho-user
-    firstname: MyOrtho
-    lastname: Ortholn
-    password: ortho-password
+  - email: beta@beta.nl
+    username: beta-user
+    firstname: BetaName
+    lastname: BetaSurname
+    password: beta-password
   zipcode: 1234AB
-- name: third
-  address1: third 42
+- name: gamma
+  address1: gamma 42
   address2: 
   country: Netherlands
-  domain: third.nl
+  domain: gamma.nl
   public_key: ''
   users:
-  - email: third@ortho.nl
-    username: third-user
-    firstname: MyThird
-    lastname: thirdln
-    password: third-password
+  - email: gamma@gamma.nl
+    username: gamma-user
+    firstname: GammaName
+    lastname: GammaSurname
+    password: gamma-password
   zipcode: 1234AB

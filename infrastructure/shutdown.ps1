@@ -1,3 +1,6 @@
+echo "please use the bash shell script"
+exit
+
 .\venv\Scripts\activate
 vnode stop -n ortho
 vnode stop -n fysio
