@@ -19,7 +19,7 @@ v6 server start --user -c $server_config --image harbor2.vantage6.ai/infrastruct
 
 # Import server entities
 server_entities=$(pwd)/entities.yaml
-v6 server import --user -c $server_config $server_entities
+v6 server import --user -c $server_config $server_entities --image harbor2.vantage6.ai/infrastructure/server:$VERSION_SERVER
 
 # Alpha node start
 alpha_config=$(pwd)/alpha.yaml
